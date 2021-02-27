@@ -3,7 +3,7 @@ Repositororio de ayuda para el proyecto queremosiramisa.
 
 ### Pasos a seguir para añadir soporte de creación de códigos QR desde una aplicación JavaEE
 
-1. Añadir las dependencias de maven de las librerías de Zing al archivo `pom.xml` adjunta en el repositorio.
+1. Añadir las dependencias de maven de las librerías de ZXing al archivo `pom.xml` adjunta en el repositorio.
 2. Añadir al proyecto la clase *`GeneradorQR.java`* adjunta en el repositorio.
 3. Dicha clase, tiene un método estático llamado *`.generarQR(String texto)`* donde texto es lo que queremos que ponga en el QR.
 4. La clase devuelve un String que es la imagen directamente en formato Base64.
