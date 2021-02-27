@@ -18,9 +18,9 @@ public class GeneradorQR {
 	public static String generarQR(String text) {
 		
 		QRCodeWriter writer = new QRCodeWriter();
-        BitMatrix matrix;
+		BitMatrix matrix;
 		try {
-			matrix = writer.encode(text, com.google.zxing.BarcodeFormat.QR_CODE, 300, 300);
+			matrix = writer.encode(text, com.google.zxing.BarcodeFormat.QR_CODE, 300, 300); //alto=300 y ancho=300. Puede modificarse si fuera necesario
 		} catch (WriterException e) {
 			System.out.println("Hubo un error al crear el código QR. Excepción: " + e.toString());
 			return null;
