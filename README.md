@@ -1,5 +1,5 @@
 # queremosiramisa
-Repositororio de ayuda para el proyecto queremosiramisa. 
+Repositorio de ayuda para el proyecto queremosiramisa. 
 
 ### Pasos a seguir para añadir soporte de creación de códigos QR desde una aplicación JavaEE
 
