@@ -13,13 +13,13 @@ Repositorio de ayuda para el proyecto queremosiramisa.
 
 ### Ejemplo
 ##### Desde el servlet Java:
-``` [Java]
+```java
 //Convertir un texto en una imagen QR
 String qrCode = GeneradorQR.generarQR("El texto que quieras en tu QR");
 //Y ahora lo enviamos a la vista
 request.setAttribute("imagen", qrCode);
 ```
 ##### Desde la vista:
-``` [JSP]
+```jsp
 <img src="${imagen}" alt="" title="QR generado" />
 ```
